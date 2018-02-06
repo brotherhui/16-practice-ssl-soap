@@ -10,3 +10,6 @@ client use resttemplate to access it.
 # Introduce
 --wsdl path is https://localhost:8443/ws/users.wsdl?wsdl
 --request is https://localhost:8443/ws
+
+# key
+please refer to https://github.com/brotherhui/11-practice-ssl-resttemplate to generate key
