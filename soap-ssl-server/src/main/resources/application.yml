@@ -8,6 +8,6 @@ server:
     key-store-password: s3cr3t
     key-password: s3cr3t
     #if we added below trust-store. The server will not accept normal access from webpage
-    trust-store: classpath:server.jks
-    trust-store-password: s3cr3t
-    client-auth: need
+#    trust-store: classpath:server.jks
+#    trust-store-password: s3cr3t
+#    client-auth: need
