@@ -1,5 +1,7 @@
 # 16-practice-ssl-soap
 soap, ssl, example
+https webservice server
+client use resttemplate to access it.
 
 # Test
 1. start 2 server
