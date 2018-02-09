@@ -10,12 +10,10 @@ import javax.xml.ws.Service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestOperations;
 
 import com.brotherhui.wsimport.UserRequest;
 import com.brotherhui.wsimport.UserRequest_Type;  
@@ -24,10 +22,8 @@ import com.brotherhui.wsimport.UserRequest_Type;
 @RestController
 class ClientController2 {
 
-	private static final Logger log = LoggerFactory.getLogger(ClientApplication.class);
+	private static final Logger log = LoggerFactory.getLogger(ClientController2.class);
 	
-    @Autowired
-    private RestOperations restTemplate;
     
     @Value("${ssltest.trust-store-password}")
     private String trustStorePassword;

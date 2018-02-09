@@ -1,10 +1,11 @@
 # 16-practice-ssl-soap
-soap, ssl, example, springboot
+soap, ssl, example, springboot, cucumber test baseline
 I provided 2 ways to access soap:
 - wsdl path is https://localhost:8443/ws/users.wsdl?wsdl
 - request is https://localhost:8443/ws
 1. access by https in resttemplate
 2. access by client bean which is wsimport from the real wsdl.
+3. I privide a cucumber test for this soap access.
 
 
 # Way1 - access soap by https post method
